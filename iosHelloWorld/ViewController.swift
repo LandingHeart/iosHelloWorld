@@ -16,19 +16,19 @@ class ViewController: UIViewController {
     @IBAction func onTapped(_ sender: Any) {
         print("tapped")
         textField.text = ""
-        textLabel.text = "Filler text"
-        textLabel.textColor = UIColor.black
-        view.backgroundColor = UIColor.green
+        textLabel.text = "Hello from Shinan!"
+        textLabel.textColor = UIColor.black //set text color
+        view.backgroundColor = UIColor.green//set background color
         
     }
     @IBAction func changeText(_ sender: Any) {
         let text = textField.text
-        if (textField.text?.isEmpty)!{
-            textLabel.text = "Filler text"
+        if (textField.text?.isEmpty)!{// check if text field is empty
+            textLabel.text = "Hello from Shinan!"
         }else{
-            textLabel.text = text
+            textLabel.text = text// set text label to the text store in textField
         }
-        self.view.endEditing(true)
+        self.view.endEditing(true)// dismmiss keyboard
         
       
     }
@@ -37,12 +37,12 @@ class ViewController: UIViewController {
     @IBAction func changeView(_ sender: Any){
         view.backgroundColor = UIColor.blue
         
-        self.view.endEditing(true)
+        self.view.endEditing(true)// dismmiss keyboard
       
     }
     @IBAction func changeColor(_ sender: Any){
-        textLabel.textColor = UIColor.orange
-        self.view.endEditing(true)
+        textLabel.textColor = UIColor.orange//set text color
+        self.view.endEditing(true)// dismmiss keyboard
         
     }
 
@@ -50,8 +50,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.green
-        if (textField.text?.isEmpty)!{
-            textLabel.text = "Filler text"
+        if (textField.text?.isEmpty)!{// check if text field is empty
+            textLabel.text = "Hello from Shinan!" // defualt text
         }
        
         // Do any additional setup after loading the view, typically from a nib.
