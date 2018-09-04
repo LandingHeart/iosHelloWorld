@@ -1,6 +1,6 @@
 ## iosHelloWorld
 ### simple changing text color, view color, and displaying text field text in label
-<img src= "https://i.imgur.com/5CL4cBt.gif" width=200><br>
+<img src= <a href="https://imgflip.com/gif/2h5g3l"><img src="https://i.imgflip.com/2h5g3l.gif" title="made at imgflip.com"/></a> width=200><br>
 
 
 ### Required User Stories
